@@ -39,7 +39,7 @@ watch -n 1 gc-monitor --no-card-info
 
 
 
-gc-profile -d ./profile/ -- python3 pipelining.py
+gc-profile -d ./tmp/gcprofile/ -- python3 mnist-ipu.py
 
 
 //docker 설치 및 일반사용자가 접근가능하도록 퍼미션 허가
