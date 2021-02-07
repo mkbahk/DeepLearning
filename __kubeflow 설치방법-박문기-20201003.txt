@@ -47,7 +47,6 @@ kfctl version
 		
 
 
-
 nano sc.yaml
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
@@ -173,10 +172,6 @@ kubectl describe sc
 
 kubectl get service -n istio-system
 http://106.246.237.171:31380/
-
-
-
-
 
 
 export INGRESS_HOST=$(minikube ip)
