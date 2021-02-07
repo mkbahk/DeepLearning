@@ -47,6 +47,7 @@ tensorboard = TensorBoard(log_dir="c:/Temp/tensorlogs/{}".format(time()))
 print("\n Starting Training...")
 model.fit(x_train, y_train, batch_size=128, epochs=100, validation_data=(x_test, y_test), callbacks=[tensorboard])
 print("\n Finished Training...")
+
 print("\n Evaulating...")
 model.evaluate(x_test, y_test)
 print("\n Job Finished...")
